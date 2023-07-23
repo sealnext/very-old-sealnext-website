@@ -1,24 +1,18 @@
-<div
-class="flex flex-row mx-24 sm:justify-center max-sm:mx-4 sm:max-md:mx-6 md:max-lg:mx-12 max-sm:flex-col-reverse"
->
-<div class="mt-40 w-2/5 max-sm:w-full flex flex-col">
-  <p class="text-4xl font-bold">
-    Leading Your Business into the Digital Future
-  </p>
-  <p class="w-3/4 max-sm:w-full text-lg mt-3">
-    Developing high-quality, innovative software solutions to accelerate
-    your business growth and efficiency.
-  </p>
-  <div class="mt-3 flex flex-row max-sm:justify-evenly">
-    <button
-      class="mr-4 text-sm font-light p-3 px-4 max-sm:w-1/2 bg-black text-white rounded-xl hover:bg-gray-800"
-      >Find Out How</button
-    >
-    <button
-      class="text-sm p-3 px-4 max-sm:w-1/2 bg-white border-black border-2 rounded-xl hover:bg-gray-300"
-      >Contact Us</button
-    >
+<section class="text-gray-600 body-font">
+  <div class="container flex flex-col items-center px-5 py-24 mx-auto md:flex-row">
+    <div class="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
+      <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">
+        Leading Your Business
+        <br class="hidden lg:inline-block" />into the Digital Future
+      </h1>
+      <p class="mb-8 leading-relaxed">Developing high-quality, innovative software solutions to accelerate your business growth and efficiency.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex px-6 py-2 text-lg text-white bg-black border-0 rounded-lg font-extralight focus:outline-none hover:bg-indigo-600">Find Out How</button>
+        <button class="inline-flex px-6 py-2 ml-4 text-lg text-gray-700 bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200">Contact Us</button>
+      </div>
+    </div>
+    <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+      <img class="object-cover object-center rounded" alt="logo" src="big_seal.png" />
+    </div>
   </div>
-</div>
-<img src="/big_seal.png" alt="Big Seal" class="hidden sm:block mt-20 h-96 object-contain" />
-</div>
+</section>
