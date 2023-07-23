@@ -1,5 +1,5 @@
 <header class="text-gray-600 body-font">
-  <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+  <div class="flex flex-col flex-wrap items-center w-full p-5 mx-auto md:flex-row">
     <a class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
       <span class="ml-3 text-xl">SEALNEXT</span>
     </a>
