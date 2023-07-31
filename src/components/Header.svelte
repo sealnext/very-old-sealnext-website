@@ -1,13 +1,46 @@
-<header class="mx-auto text-gray-600 body-font">
-  <div class="flex flex-col flex-wrap items-center w-full p-5 px-16 mx-auto md:px-5 lg:px-16 md:flex-row">
-    <a href="#" class="flex items-center mb-4 font-medium text-gray-900 title-font md:mb-0">
-      <span class="ml-3 text-xl">SEALNEXT</span>
-    </a>
-    <nav class="flex flex-wrap items-center justify-center text-2xl md:text-xl md:ml-auto">
-      <a href="#about" class="mr-5 hover:text-gray-900">About</a>
-      <a href="#reviews" class="mr-5 hover:text-gray-900">Reviews</a>
-      <a href="#services" class="mr-5 hover:text-gray-900">Services</a>
-      <a href="#contact" class="mr-5 hover:text-gray-900">Contact</a>
-    </nav>
+<script>
+  let isMenuVisible = false;
+  console.log("1");
+</script>
+
+<header class="flex flex-col gap-4 px-6 py-4 shadow-md md:hidden">
+  <div class="flex flex-row items-center">
+    <div class="absolute inset-x-0 flex justify-center">
+      <a class="text-center text-2xl" href="">SEALNEXT</a>
+    </div>
+    <button class="ml-auto z-10" on:click={() => {console.log("1"); isMenuVisible = !isMenuVisible;}}>B</button>
   </div>
+  {#if isMenuVisible}
+    <a class="text-center text-lg" href="">About</a>
+    <a class="text-center text-lg" href="">Reviews</a>
+    <a class="text-center text-lg" href="">Services</a>
+  {/if}
 </header>
+
+<!-- <header class="flex md:max-lg:justify-between items-center px-20 max-lg:px-12 max-md:px-6 py-4 shadow-md">
+  <div class="absolute inset-x-0 flex justify-center sm:hidden">
+    <a class="text-center text-2xl" href="">SEALNEXT</a>
+  </div>
+  <div class="flex flex-grow justify-start max-sm:hidden">
+    <a class="text-center text-2xl" href="">SEALNEXT</a>
+  </div>
+  <button class="ml-auto sm:hidden" />
+  <div class="">
+    <a>About</a>
+    <a>Reviews</a>
+    <a>Services</a>
+    <div class="text-base flex flex-col">
+      <a><span class="" />(+40) 755-312-170</a>
+      <a><span class="" />contact@sealnext.com</a>
+    </div>
+  </div>
+  <div class="flex items-center gap-8 max-lg:gap-6 max-md:gap-4 max-sm:hidden text-lg max-lg:hidden">
+    <a>About</a>
+    <a>Reviews</a>
+    <a>Services</a>
+    <div class="text-base flex flex-col">
+      <a><span class="" />(+40) 755-312-170</a>
+      <a><span class="" />contact@sealnext.com</a>
+    </div>
+  </div>
+</header> -->
