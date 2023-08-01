@@ -1,19 +1,25 @@
 <script>
+  import { fade, slide } from 'svelte/transition';
+
   let isMenuVisible = false;
   console.log("1");
 </script>
 
-<header class="flex flex-col gap-4 px-6 py-4 shadow-md md:hidden">
-  <div class="flex flex-row items-center">
+<header class="flex flex-col py-4 md:hidden">
+  <div class="flex flex-row items-center px-6">
     <div class="absolute inset-x-0 flex justify-center">
       <a class="text-center text-2xl" href="">SEALNEXT</a>
     </div>
     <button class="ml-auto z-10" on:click={() => {console.log("1"); isMenuVisible = !isMenuVisible;}}>B</button>
   </div>
   {#if isMenuVisible}
-    <a class="text-center text-lg" href="">About</a>
-    <a class="text-center text-lg" href="">Reviews</a>
-    <a class="text-center text-lg" href="">Services</a>
+    <div class="transition-all shadow-md py-6" transition:slide={{duration: 500}}>
+      <div class="gap-y-4 flex flex-col" transition:fade={{duration: 500}}>
+        <a class="text-center text-lg" href="">About</a>
+        <a class="text-center text-lg" href="">Reviews</a>
+        <a class="text-center text-lg" href="">Services</a>
+      </div>
+    </div>
   {/if}
 </header>
 
