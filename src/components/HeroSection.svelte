@@ -1,5 +1,5 @@
-<section class="body-font">
-  <div class="flex flex-col items-center justify-center px-5 py-16 mx-auto w-fit md:flex-row">
+<section class="body-font px-[5vw]">
+  <div class="flex flex-col items-center justify-center py-16 mx-auto md:flex-row">
     <div class="flex flex-col items-center mb-16 text-center md:w-1/2 md:items-start md:text-left md:mb-0">
       <h1 class="mb-4 text-6xl font-bold text-clip title-font max-xl:text-5xl">
         Leading Your Business
