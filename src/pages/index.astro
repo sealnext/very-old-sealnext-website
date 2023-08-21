@@ -2,11 +2,17 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.svelte";
 import HeroSection from "../components/HeroSection.svelte";
+import About from "../components/About.svelte"
+import Feedback from "../components/Feedback.svelte"
+import Contact from "../components/Contact.svelte"
 ---
 
 <Layout title="SealNext">
-  <main>
+  <main class="flex flex-col gap-16">
     <Header client:load/>
     <HeroSection />
+    <About />
+    <Feedback />
+    <Contact />
   </main>
 </Layout>
