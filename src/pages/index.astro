@@ -5,14 +5,16 @@ import HeroSection from "../components/HeroSection.svelte";
 import About from "../components/About.svelte"
 import Feedback from "../components/Feedback.svelte"
 import Contact from "../components/Contact.svelte"
+import Footer from "../components/Footer.svelte"
 ---
 
 <Layout title="SealNext">
-  <main class="flex flex-col gap-16">
+  <main class="flex flex-col">
     <Header client:load/>
-    <HeroSection />
-    <About />
+    <HeroSection/>
+    <About client:visible/>
     <Feedback />
     <Contact />
+    <Footer />
   </main>
 </Layout>

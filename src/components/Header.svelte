@@ -5,11 +5,13 @@
 </script>
 
 <!-- PHONE -->
-<header class="flex flex-col py-4 shadow md:hidden">
+<header class="flex flex-col py-4 shadow sm:hidden">
   <div class="flex justify-between items-center px-6">
     <div class="invisible" />
     <a class="text-center text-2xl font-medium" href="">SEALNEXT</a>
-    <button class="p-0 m-0" on:click={() => {isMenuVisible = !isMenuVisible;}}><span class="m-0 p-0 material-symbols-outlined">menu</span></button>
+    <button class="p-0 m-0" on:click={() => {isMenuVisible = !isMenuVisible;}}>
+      <span class="m-0 p-0 material-symbols-outlined">menu</span>
+    </button>
   </div>
   {#if isMenuVisible}
     <div class="transition-all py-6" transition:slide={{duration: 500}}>
@@ -23,25 +25,31 @@
 </header>
 
 <!-- TABLET -->
-<header class="flex py-4 justify-between shadow items-center px-[5vmin] max-md:hidden lg:hidden">
-  <a class="text-2xl font-black" href="">SEALNEXT</a>
-  <a class="text-lg font-normal" href="">About</a>
-  <a class="text-lg font-normal" href="">Reviews</a>
-  <a class="text-lg font-normal" href="">Services</a>
+<header class="py-4 justify-between shadow items-center px-[5vmin] hidden sm:flex md:hidden">
+  <a class="text-2xl font-medium" href="">SEALNEXT</a>
+  <div class="flex space-x-4">
+    <a class="text-lg font-normal" href="">About</a>
+    <a class="text-lg font-normal" href="">Reviews</a>
+    <a class="text-lg font-normal" href="">Services</a>
+  </div>
   <div class="flex flex-col text-base">
-    <a href=""><span class="" />(+40) 755-312-170</a>
-    <a href=""><span class="" />contact@sealnext.com</a>
+    <a href="">(+40) 755-312-170</a>
+    <a href="">contact@sealnext.com</a>
   </div>
 </header>
 
 <!-- DESKTOP -->
-<header class="flex py-4 gap-8 shadow items-center px-[5vmin] max-lg:hidden">
-  <a class="text-left text-2xl font-black grow" href="">SEALNEXT</a>
-  <a class="text-lg font-normal" href="">About</a>
-  <a class="text-lg font-normal" href="">Reviews</a>
-  <a class="text-lg font-normal" href="">Services</a>
-  <div class="flex flex-col text-base">
-    <a href=""><span class="" />(+40) 755-312-170</a>
-    <a href=""><span class="" />contact@sealnext.com</a>
+<header class="py-4 gap-8 shadow items-center px-[10vmin] hidden md:flex">
+  <div class="flex space-x-4 text-base grow">
+    <a class="text-left text-2xl font-semibold pr-16" href="">SEALNEXT</a>
+    <a class="text-lg px-5 font-normal" href="">About</a>
+    <a class="text-lg px-5 font-normal" href="">Reviews</a>
+    <a class="text-lg px-5 font-normal" href="">Services</a>
   </div>
+
+  <div class="flex flex-col text-base">
+    <a href="">(+40) 755-312-170</a>
+    <a href="">contact@sealnext.com</a>
+  </div>
+  <button class="bg-white font-medium text-black rounded-[7px] py-2 px-4 border-2 border-black">Get started</button>
 </header>
