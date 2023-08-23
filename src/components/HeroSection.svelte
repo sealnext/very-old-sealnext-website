@@ -1,7 +1,7 @@
 <!-- PHONE -->
-<section class="px-[4vmin] md:hidden mt-16">
+<section class="px-[4vmin] md:hidden mt-8">
   <div class="flex flex-col text-center items-center gap-2">
-    <h1 class="text-[8vmin] font-extrabold text-gray-900 leading-tight">
+    <h1 id="about" class="text-[8vmin] font-extrabold text-gray-900 leading-tight">
       Leading
       <span class="">Your Business</span>
       <!-- <span class="text-blue-600">Your Business</span> -->
@@ -11,8 +11,8 @@
     </h1>
     <div class="mb-6 text-[3vmin]">Developing high-quality, innovative software solutions to accelerate your business growth and efficiency.</div>
     <div class="flex flex-col gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
-      <button class="bg-black text-white rounded-xl py-2 px-4 border-2 border-black text-[3.5vmin]">Claim your FREE solution</button>
-      <button class="bg-white text-black rounded-xl py-2 px-4 border-2 border-black text-[3.5vmin]">Contact us</button>
+      <a href="#contact" class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Claim your FREE solution</a>
+      <a href="#contact" class="bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Contact us</a>
     </div>
   </div>
 </section>
@@ -21,7 +21,7 @@
 <section class="px-[10vmin] justify-between max-md:hidden mt-16 flex flex-row">
   <div class="w-1/2 flex flex-col justify-center">
     <div>
-      <h1 class="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl">
+      <h1 id="about"  class="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl">
         Leading
         <span class="">Your Business</span>
         <!-- <span class="text-blue-700">Your Business</span> -->
@@ -32,8 +32,8 @@
       <div class="pb-4 text-2xl">Developing high-quality, innovative <br />software solutions to accelerate your <br />business growth and efficiency.</div>
     </div>
     <div class="py-3 flex flex-row gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
-      <button href="" class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Claim your FREE solution</button>
-      <button href="#contact" class="bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Contact us</button>
+      <a href="#contact" class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Claim your FREE solution</a>
+      <a href="#contact" class="bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Contact us</a>
     </div>
   </div>
   <img style="width:40vmax;height:40vmax;" alt="yo" src="big_seal.png" />
