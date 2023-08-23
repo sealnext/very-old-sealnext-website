@@ -1,9 +1,9 @@
 
-<div id="contact" class="flex-col text-[2.5vmin] justify-between items-center flex mb-6">
+<div id="contact" class="mt-12 flex-col text-[2.5vmin] justify-between items-center flex mb-6">
   <h1 class="text-[7vmin] font-bold text-center">Contact</h1>
   <div class="text-[4vmin] flex items-center mb-8">Your success, our services <span class="text-[5vmin] ml-2">🚀</span></div>
   <div class="mt-6 flex flex-col-reverse items-center md:flex-row justify-center md:gap-x-32 w-full">
-    <div class="text-xl md:text-l mt-12 md:mt-0 space-y-4 text-left pb-0 mb-12 md:mb-0">
+    <div class="text-xl md:text-l md:pb-12 mt-12 md:mt-0 space-y-4 text-left pb-0 mb-12 md:mb-0">
       <h1 class="font-bold mb-2">Contact SealNext</h1>
       <p class="mb-2 text-gray-500">
         Need assistance or have inquiries? <br />
@@ -12,8 +12,8 @@
         Let's make a splash together!
       </p>
       <p class="mb-2 text-gray-500">
-        contact@sealnext.com <br />
-        +40 755 312 170
+        <a href="tel:+40755312170">(+40) 755-312-170</a>
+        <a href="mailto:contact@sealnext.com">contact@sealnext.com</a>   
       </p>
     </div>
     <div class="w-4/5 flex flex-col items-center sm:items-start sm:w-64">
@@ -21,13 +21,13 @@
     
         <input type="hidden" name="access_key" value="b1fd646d-e54b-428b-b7a8-8352dc8fa9a6">
     
-        <input name="name" type="text" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3" placeholder="Full name" required />
-        <input name="email" type="email" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3" placeholder="Email address" required />
-        <textarea name="message" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3" placeholder="Your message" required></textarea>
+        <input name="name" type="text" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Full name" required />
+        <input name="email" type="email" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />
+        <textarea name="message" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-24 p-3 items-center flex" placeholder="Your message" required></textarea>
         
         <div class="h-captcha" data-captcha="true"></div>
         
-        <input class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black w-full h-12" type="submit" value="Submit" />
+        <input class="bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
         
       </form>
     </div>    

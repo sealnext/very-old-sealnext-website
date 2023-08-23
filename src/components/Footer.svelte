@@ -42,12 +42,12 @@
     <div class="w-full md:w-1/4 px-4 flex flex-col items-center justify-center text-center">
       <h2 class="text-xl mb-4 text-center font-medium">Contact us</h2>
       <div class="flex justify-center text-center items-center space-x-2 mb-2">
-        <span class="text-center material-symbols-outlined mr-2">phone</span>
-        <span class="text-center">(40) 755-312-170</span>
+        <span class="text-center material-symbols-outlined">phone</span>
+        <span class="text-center"><a href="tel:+40755312170">(+40) 755-312-170</a></span>
       </div>
       <div class="flex justify-center items-center space-x-2">
-        <span class="material-symbols-outlined mr-2">email</span>
-        <span>contact@sealnext.com</span>
+        <span class="material-symbols-outlined">email</span>
+        <span><a href="mailto:contact@sealnext.com">contact@sealnext.com</a> </span>
       </div>
     </div>
 </div>

@@ -31,10 +31,11 @@
       </h1>
       <div class="pb-4 text-2xl">Developing high-quality, innovative <br />software solutions to accelerate your <br />business growth and efficiency.</div>
     </div>
-    <div class="py-3 flex flex-row gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
-      <a href="#contact" class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Claim your FREE solution</a>
-      <a href="#contact" class="bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin]">Contact us</a>
+    <div class="py-3 flex flex-col md:flex-row gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
+      <a href="#contact" class="bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Claim your FREE solution</a>
+      <a href="#contact" class="bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Contact us</a>
     </div>
+    
   </div>
   <img style="width:40vmax;height:40vmax;" alt="yo" src="big_seal.png" />
 </section>
