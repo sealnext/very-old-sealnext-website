@@ -4,8 +4,8 @@
     data-locale="en-US" 
     data-template-id="5419b6a8b0d04a076446a9ad" 
     data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" 
-    data-style-height="100%"
-    data-style-width="100%" 
+    data-style-height="auto"
+    data-style-width="auto" 
     data-theme="light" 
     data-min-review-count="10" 
     data-without-reviews-preferred-string-id="1" 
@@ -53,8 +53,8 @@
   data-locale="en-US" 
   data-template-id="5419b6a8b0d04a076446a9ad" 
   data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" 
-  data-style-height="100%"
-  data-style-width="100%" 
+  data-style-height="auto"
+  data-style-width="auto" 
   data-theme="light" 
   data-min-review-count="10" 
   data-without-reviews-preferred-string-id="1" 
@@ -106,3 +106,11 @@
     </div>
   </div>
 </section>
+<style>
+
+.tp-widget-empty-horizontal {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+</style>
+
