@@ -19,7 +19,7 @@
         <div class="w-4/5 flex flex-col items-center sm:items-start sm:w-64">
             <form action="https://api.web3forms.com/submit" method="POST" class="text-black w-full flex flex-col gap-4 mb-4">
 
-                <input type="hidden" name="access_key" value="b1fd646d-e54b-428b-b7a8-8352dc8fa9a6">
+                <input type="hidden" name="access_key" value="fad8eedb-8a2b-4342-a05d-87b4d69b3adf">
 
                 <input name="name" type="text" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Full name" required />
                 <input name="email" type="email" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />

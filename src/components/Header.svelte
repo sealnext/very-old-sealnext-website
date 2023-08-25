@@ -16,8 +16,8 @@
     </button>
   </div>
   {#if isMenuVisible}
-    <div class="transition-all pt-6 pb-3" transition:slide={{duration: 500}}>
-      <div class="gap-y-4 flex flex-col" transition:fade={{duration: 500}}>
+    <div class="transition-all pt-6 pb-3" transition:slide={{duration: 200}}>
+      <div class="gap-y-4 flex flex-col" transition:fade={{duration: 200}}>
         <a class="text-center text-lg font-normal" href="#reviews">Reviews</a>
         <a class="text-center text-lg font-normal" href="#services">Services</a>
       </div>
