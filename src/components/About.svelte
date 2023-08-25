@@ -49,7 +49,7 @@
 <!-- TABLET/DESKTOP -->
 <section class="flex py-32 px-[10vmin] flex-col items-center justify-center max-md:hidden">
   <div class="text-center text-2xl">We're not just a tech company, we're your trusted digital journey partner.</div>
-  <div class="trustpilot-widget" 
+  <div class="text-2xl trustpilot-widget" 
   data-locale="en-US" 
   data-template-id="5419b6a8b0d04a076446a9ad" 
   data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" 
@@ -59,8 +59,8 @@
   data-min-review-count="10" 
   data-without-reviews-preferred-string-id="1" 
   data-style-alignment="center">
-<a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
-</div>
+    <a class="text-2xl" href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
   <img alt="logo" style="width:28vmax;" src="small_seal.png" />
   <div class="flex items-center justify-between pt-32 flex-col mx-[10vmin] gap-10">
     <!-- Web Development -->
@@ -107,6 +107,9 @@
   </div>
 </section>
 <style>
+.trustpilot-widget p, .trustpilot-widget a {
+  font-size: 20px; /* Schimbați dimensiunea în funcție de nevoile dvs. */
+}
 
 .tp-widget-empty-horizontal {
     -ms-flex-direction: row !important;
