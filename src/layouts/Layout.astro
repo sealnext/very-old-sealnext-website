@@ -37,6 +37,15 @@ const { title } = Astro.props;
 
 
 <style is:global>
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/inter-latin-700-normal.woff') format('woff');
+  font-weight: 700; /* sau orice altă valoare specfică */
+  font-style: normal; /* sau italic etc. */
+  font-display: swap; /* foarte important pentru optimizare */
+}
+
   html {
 
     color: hsl(var(--colour-text-hue) var(--colour-text-saturation) var(--colour-text-luminance));
