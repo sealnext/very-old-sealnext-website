@@ -21,13 +21,13 @@
 
                 <input type="hidden" name="access_key" value="b1fd646d-e54b-428b-b7a8-8352dc8fa9a6">
 
-                <input name="name" type="text" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Full name" required />
-                <input name="email" type="email" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />
-                <textarea name="message" class="border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-24 p-3 items-center flex" placeholder="Your message" required></textarea>
+                <input name="name" type="text" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Full name" required />
+                <input name="email" type="email" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />
+                <textarea name="message" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-24 p-3 items-center flex" placeholder="Your message" required></textarea>
 
                 <div class="h-captcha" data-captcha="true"></div>
 
-                <input class="bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
+                <input class="text-xl bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
 
             </form>
         </div>
