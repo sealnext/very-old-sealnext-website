@@ -35,7 +35,7 @@
   </div>
   <div class="flex flex-col text-base">
     <a href="tel:+40755312170">(+40) 755-312-170</a>
-    <a href="mailto:contact@sealnext.com">contact@sealnext.com</a>    
+    <a href="mailto:support@sealnext.com">support@sealnext.com</a>    
   </div>
 </header>
 
@@ -49,7 +49,7 @@
   
   <div class="flex flex-col text-base">
     <a href="tel:+40755312170">(+40) 755-312-170</a>
-    <a href="mailto:contact@sealnext.com">contact@sealnext.com</a>    
+    <a href="mailto:support@sealnext.com">support@sealnext.com</a>    
   </div>
   <a href="#contact" class="bg-white font-medium text-black rounded-[7px] py-2 px-4 border-2 border-black">Get started</a>
 </header>

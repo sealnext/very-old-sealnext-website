@@ -13,7 +13,7 @@
             </p>
             <p class="mb-2 flex flex-col text-gray-500">
                 <a href="tel:+40755312170">(+40) 755-312-170</a>
-                <a href="mailto:contact@sealnext.com">contact@sealnext.com</a>
+                <a href="mailto:support@sealnext.com">support@sealnext.com</a>
             </p>
         </div>
         <div class="w-4/5 flex flex-col items-center sm:items-start sm:w-64">

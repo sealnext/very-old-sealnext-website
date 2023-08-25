@@ -47,7 +47,7 @@
       </div>
       <div class="flex justify-center items-center space-x-2">
         <span class="material-symbols-outlined">email</span>
-        <span><a href="mailto:contact@sealnext.com">contact@sealnext.com</a> </span>
+        <span><a href="mailto:support@sealnext.com">support@sealnext.com</a> </span>
       </div>
     </div>
 </div>
