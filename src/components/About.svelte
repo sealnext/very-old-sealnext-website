@@ -16,32 +16,32 @@
     <img alt="logo" style="width:28vmax;" src="small_seal.png" />
     <div id="services" class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> web </span>Web Development</h1>
-      <div class="text-[3vmin] font-normal">We create SEO-friendly, mobile-optimized websites that convey your brand message and captivate your audience.</div>
+      <div class="text-[4vmin] font-normal">We create SEO-friendly, mobile-optimized websites that convey your brand message and captivate your audience.</div>
     </div>
 
     <div class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> smartphone </span>Mobile Development</h1>
-      <div class="text-[3vmin] font-normal">Our team designs powerful mobile apps for iOS and Android, expanding your business's reach and engagement.</div>
+      <div class="text-[4vmin] font-normal">Our team designs powerful mobile apps for iOS and Android, expanding your business's reach and engagement.</div>
     </div>
 
     <div class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> trending_up </span>Custom Software</h1>
-      <div class="text-[3vmin] font-normal">We deliver custom software solutions, ensuring scalability and alignment with your unique business needs.</div>
+      <div class="text-[4vmin] font-normal">We deliver custom software solutions, ensuring scalability and alignment with your unique business needs.</div>
     </div>
 
     <div class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> content_copy </span>Digital Content</h1>
-      <div class="text-[3vmin] font-normal">Our team creates tailor-made software solutions that are scalable and meet your unique business needs.</div>
+      <div class="text-[4vmin] font-normal">Our team creates tailor-made software solutions that are scalable and meet your unique business needs.</div>
     </div>
 
     <div class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> trending_up </span>Digital Marketing</h1>
-      <div class="text-[3vmin] font-normal">Our strategies encompass SEO, SEM, and content marketing to enhance your online visibility and engage your audience.</div>
+      <div class="text-[4vmin] font-normal">Our strategies encompass SEO, SEM, and content marketing to enhance your online visibility and engage your audience.</div>
     </div>
 
     <div class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[5vmin]"><span class="material-symbols-outlined mr-2"> group </span>Social Media</h1>
-      <div class="text-[3vmin] font-normal">We boost your brand's social media presence with engaging content and active community management.</div>
+      <div class="text-[4vmin] font-normal">We boost your brand's social media presence with engaging content and active community management.</div>
     </div>
   </div>
 </section>
