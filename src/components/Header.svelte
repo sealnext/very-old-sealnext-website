@@ -8,16 +8,17 @@
 <header class="flex flex-col py-4 shadow sm:hidden">
   <div class="flex justify-between items-center px-6">
     <div class="invisible" />
-    <a class="text-center text-2xl font-semibold" href="">SEALNEXT</a>
+    <div class="pointer-events-none absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center h-16 w-full">
+    <a class="text-2xl font-semibold" href="#">SEALNEXT</a>
+    </div>
     <button class="p-0 m-0" on:click={() => {isMenuVisible = !isMenuVisible;}}>
       <span class="m-0 p-0 material-symbols-outlined">menu</span>
     </button>
   </div>
   {#if isMenuVisible}
-    <div class="transition-all py-6" transition:slide={{duration: 500}}>
+    <div class="transition-all pt-6 pb-3" transition:slide={{duration: 500}}>
       <div class="gap-y-4 flex flex-col" transition:fade={{duration: 500}}>
-        <a class="text-center text-lg font-normal" href="#about">About</a>
-        <!-- <a class="text-center text-lg font-normal" href="#reviews">Reviews</a> -->
+        <a class="text-center text-lg font-normal" href="#reviews">Reviews</a>
         <a class="text-center text-lg font-normal" href="#services">Services</a>
       </div>
     </div>
@@ -42,9 +43,8 @@
 <header class="py-4 gap-8 shadow items-center px-[10vmin] hidden md:flex">
   <div class="flex space-x-4 text-base items-center grow">
     <a class="text-left text-2xl font-semibold pr-16" href="">SEALNEXT</a>
-    <a class="text-lg px-5 font-normal" href="#about">About</a>
-    <!-- <a class="text-lg px-5 font-normal" href="">Reviews</a> -->
-    <a class="text-lg px-5 font-normal" href="#services">Services</a>
+    <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
+    <a class="text-lg px-5 font-normal" href="#servicess">Services</a>
   </div>
   
   <div class="flex flex-col text-base">
