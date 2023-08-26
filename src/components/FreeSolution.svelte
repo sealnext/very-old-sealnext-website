@@ -147,12 +147,12 @@ p {
     color: white;
     border-radius: 10px;
     width: 70%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     border: 2px solid black;
-    font-size: 3vmax;
+    font-size: larger;
 }
 
 .button:hover {
