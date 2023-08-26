@@ -147,7 +147,8 @@ p {
     color: white;
     border-radius: 10px;
     width: 70%;
-    /* 4/5 of the parent's width */
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     border: 2px solid black;
