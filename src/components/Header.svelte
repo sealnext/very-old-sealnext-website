@@ -29,7 +29,7 @@ let isMenuVisible = false;
 </header>
 
 <!-- TABLET -->
-<header class="py-4 justify-between shadow items-center px-[5vmin] hidden sm:flex md:hidden">
+<header class="py-4 justify-between shadow items-center px-[5vmin] hidden sm:flex lg:hidden">
   <a class="text-2xl font-semibold" href="">SEALNEXT</a>
   <div class="flex space-x-4">
     <a class="text-lg font-normal" href="">About</a>
@@ -37,13 +37,13 @@ let isMenuVisible = false;
     <a class="text-lg font-normal" href="">Services</a>
   </div>
   <div class="flex flex-col text-base">
-    <a href="tel:+40755312170">(+40) 755-312-170</a>
+    <a href="tel:+40755312170">+40 755 312 170</a>
     <a href="mailto:support@sealnext.com">support@sealnext.com</a>
   </div>
 </header>
 
 <!-- DESKTOP -->
-<header class="py-4 gap-8 shadow items-center px-[10vmin] hidden md:flex">
+<header class="py-4 gap-8 shadow items-center px-[10vmin] hidden lg:flex">
   <div class="flex space-x-4 text-base items-center grow">
     <a class="text-left text-2xl font-semibold pr-16" href="">SEALNEXT</a>
     <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
@@ -51,10 +51,10 @@ let isMenuVisible = false;
   </div>
 
   <div class="flex flex-col text-base">
-    <a href="tel:+40755312170">(+40) 755-312-170</a>
+    <a href="tel:+40755312170">+40 755 312 170</a>
     <a href="mailto:support@sealnext.com">support@sealnext.com</a>
   </div>
-  <a href="#contact" class="bg-white font-medium text-black rounded-[7px] py-2 px-4 border-2 border-black">Get started</a>
+  <!-- <a href="#contact" class="bg-white font-medium text-black rounded-[7px] py-2 px-4 border-2 border-black">Get started</a> -->
 </header>
 
 <style>

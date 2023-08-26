@@ -1,19 +1,10 @@
 <section class="flex flex-col items-center md:hidden">
-    <div class="text-center text mt-8 text-[4vmin]">We're not just a tech company, we're your trusted digital journey partner.</div>
-    <div class="trustpilot-widget" 
-    data-locale="en-US" 
-    data-template-id="5419b6a8b0d04a076446a9ad" 
-    data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" 
-    data-style-height="50px"
-    data-style-width="100%" 
-    data-theme="light" 
-    data-min-review-count="10" 
-    data-without-reviews-preferred-string-id="1" 
-    data-style-alignment="center">
- <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
-</div>
+  <div class="text-center text mt-8 text-[4vmin]">We're not just a tech company, we're your trusted digital journey partner.</div>
+  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
+    <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
   <div class="pt-6 items-center flex justify-center flex-col mx-[10vmin] gap-10">
-    <img alt="logo" style="width:50vw;" src="small_seal.png" />
+    <img alt="logo" style="width:0vw;" src="small_seal.png" />
     <div id="services" class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[6vmin]"><span class="material-symbols-outlined mr-2"> web </span>Web Development</h1>
       <div class="text-[4vmin] font-normal text-gray-700">We create SEO-friendly, mobile-optimized websites that convey your brand message and captivate your audience.</div>
@@ -49,17 +40,8 @@
 <!-- TABLET/DESKTOP -->
 <section class="flex py-32 px-[10vmin] flex-col items-center justify-center max-md:hidden">
   <div class="text-center text-2xl">We're not just a tech company, we're your trusted digital journey partner.</div>
-  <div class="text-2xl trustpilot-widget" 
-  data-locale="en-US" 
-  data-template-id="5419b6a8b0d04a076446a9ad" 
-  data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" 
-  data-style-height="50px"
-  data-style-width="100%" 
-  data-theme="light" 
-  data-min-review-count="10" 
-  data-without-reviews-preferred-string-id="1" 
-  data-style-alignment="center">
-    <a class="text-2xl" href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
+  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
+    <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
   <img alt="logo" style="width:28vmax;" src="small_seal.png" />
   <div class="flex items-center justify-between pt-32 flex-col mx-[10vmin] gap-10">
@@ -106,6 +88,7 @@
     </div>
   </div>
 </section>
+
 <style>
 .trustpilot-widget p, .trustpilot-widget a {
   font-size: 20px; /* Schimbați dimensiunea în funcție de nevoile dvs. */
@@ -116,4 +99,3 @@
     flex-direction: row !important;
 }
 </style>
-

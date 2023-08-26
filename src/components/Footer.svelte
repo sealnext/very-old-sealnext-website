@@ -43,7 +43,7 @@
       <h2 class="text-xl mb-4 text-center font-medium">Contact us</h2>
       <div class="flex justify-center text-center items-center space-x-2 mb-2">
         <span class="text-center material-symbols-outlined">phone</span>
-        <span class="text-center"><a href="tel:+40755312170">(+40) 755-312-170</a></span>
+        <span class="text-center"><a href="tel:+40755312170">+40 755 312 170</a></span>
       </div>
       <div class="flex justify-center items-center space-x-2">
         <span class="material-symbols-outlined">email</span>

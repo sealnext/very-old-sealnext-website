@@ -11,7 +11,7 @@
         Let's make a splash together!
       </p>
       <p class="mb-2 flex flex-col text-gray-500">
-        <a href="tel:+40755312170">(+40) 755-312-170</a>
+        <a href="tel:+40755312170">+40 755 312 170</a>
         <a href="mailto:support@sealnext.com">support@sealnext.com</a>
       </p>
     </div>
@@ -26,7 +26,7 @@
 
         <div class="h-captcha" data-captcha="true" />
 
-        <input id="submit" class="text-xl bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
+        <input id="submit" class="text-xl font-medium bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
       </form>
     </div>
   </div>

@@ -11,8 +11,8 @@
     </h1>
     <div class="mb-6 text-[4vmin]">Developing high-quality, innovative software solutions to accelerate your business growth and efficiency.</div>
     <div class="flex flex-col gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
-      <a href="#free" class="freeButton bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[4vmin]">Claim your FREE solution</a>
-      <a href="#contact" class="contactButton bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[4vmin]">Contact us</a>
+      <a href="#free" class="freeButton bg-black font-medium text-white rounded-[10px] py-3 px-4 border-2 border-black text-[4vmin]">Claim your FREE solution</a>
+      <a href="#contact" class="contactButton bg-white font-medium text-black rounded-[10px] py-3 px-4 border-2 border-black text-[4vmin]">Contact us</a>
     </div>
   </div>
 </section>
@@ -32,8 +32,8 @@
       <div class="pb-4 text-2xl">Developing high-quality, innovative <br />software solutions to accelerate your <br />business growth and efficiency.</div>
     </div>
     <div class="py-3 flex flex-col md:flex-row gap-2 px-[4vmin] sm:px-0 w-full sm:w-auto">
-      <a href="#free" class="freeButton bg-black text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Claim your FREE solution</a>
-      <a href="#contact" class="contactButton bg-white text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Contact us</a>
+      <a href="#free" class="freeButton bg-black font-medium text-white rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Claim your FREE solution</a>
+      <a href="#contact" class="contactButton bg-white font-medium text-black rounded-[10px] py-3 px-4 border-2 border-black text-[2.5vmin] w-full md:w-auto">Contact us</a>
     </div>
   </div>
   <img style="width:40vmax;height:40vmax;" alt="yo" src="big_seal.png" />
