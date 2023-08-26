@@ -4,7 +4,7 @@
     <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
   <div class="pt-6 items-center flex justify-center flex-col mx-[10vmin] gap-10">
-    <img alt="logo" style="width:0vw;" src="small_seal.png" />
+    <img alt="logo" style="width:50vw;" src="small_seal.png" />
     <div id="services" class="flex flex-col items-center text-center">
       <h1 class="flex items-center font-medium text-[6vmin]"><span class="material-symbols-outlined mr-2"> web </span>Web Development</h1>
       <div class="text-[4vmin] font-normal text-gray-700">We create SEO-friendly, mobile-optimized websites that convey your brand message and captivate your audience.</div>
