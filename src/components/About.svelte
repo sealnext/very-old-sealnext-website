@@ -1,6 +1,6 @@
 <section class="flex flex-col items-center md:hidden">
   <div class="text-center text mt-8 text-[4vmin]">We're not just a tech company, we're your trusted digital journey partner.</div>
-  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
+  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="40px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
     <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
   <div class="pt-6 items-center flex justify-center flex-col mx-[10vmin] gap-10">
@@ -40,7 +40,7 @@
 <!-- TABLET/DESKTOP -->
 <section class="flex py-32 px-[10vmin] flex-col items-center justify-center max-md:hidden">
   <div class="text-center text-2xl">We're not just a tech company, we're your trusted digital journey partner.</div>
-  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
+  <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="64ca2ae8b3b5de2a2939bd3d" data-style-height="40px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-without-reviews-preferred-string-id="2" data-style-alignment="center">
     <a href="https://www.trustpilot.com/review/sealnext.com" target="_blank" rel="noopener">Trustpilot</a>
   </div>
   <img alt="logo" style="width:28vmax;" src="small_seal.png" />
