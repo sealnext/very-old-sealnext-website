@@ -34,12 +34,7 @@
             <label for="message" class="block mb-2 text-sm text-black"
               >Please provide details in these areas: <br />
               <br />
-              Business Overview: <span class="text-gray-400">Snapshot of your company and industry.</span><br />
-              Business Needs: <span class="text-gray-400">Key requirements.</span> <br />
-              Business Goals: <span class="text-gray-400">Short and long-term objectives.</span> <br />
-              Current Digital Presence: <span class="text-gray-400">Your existing tools, app or website.</span> <br />
-              Budget and Timeline: <span class="text-gray-400">Financial and time constraints.</span> <br />
-              Additional Information: <span class="text-gray-400">Any other important details.</span> <br /></label
+              <span class="text-gray-500"> Business Overview, Business Needs, Business Goals, Current Digital Presence, Budget and Timeline, Additional Information, </span></label
             >
             <textarea rows="5" name="message" id="message" placeholder="Your Message" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
           </div>
@@ -54,3 +49,9 @@
     </div>
   </div>
 </div>
+
+<style>
+  * {
+    font-size: large;
+  }
+</style>

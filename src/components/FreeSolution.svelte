@@ -30,7 +30,7 @@ import Contact from './FreeSolutionContact.svelte';
     Custom <br /> Digital Solution Today!
   </h1>
   <div class="text mx-6">
-    <h1 class="text-center">Ready to unlock your digital potential? Fill out our brief form to get started.</h1>
+    <h1 class="mt-6 text-center">Ready to unlock your digital potential? Fill out our brief form to get started.</h1>
     {#if !showComponent}
       <button href="" on:click={handleClick} class="button">Claim your 🎁 solution</button>
     {/if}
