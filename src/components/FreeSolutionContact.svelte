@@ -1,6 +1,6 @@
 <div class="flex items-center min-h-screen">
   <div class="container">
-    <div class="w-full mx-auto bg-white p-5 rounded-md">
+    <div class="w-full md:w-4/5 mx-auto bg-white p-5 rounded-md">
       <div class="m-7">
         <form action="https://api.web3forms.com/submit" method="POST" id="form">
           <input type="hidden" name="access_key" value="fad8eedb-8a2b-4342-a05d-87b4d69b3adf" />
@@ -9,12 +9,12 @@
 
           <div class="flex mb-6 space-x-4">
             <div class="w-full md:w-1/2">
-              <label for="fname" class="block mb-2 text-sm text-black">Company Name</label>
-              <input type="text" name="name" id="first_name" placeholder="SealNext" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+              <label for="company_name" class="block mb-2 text-sm text-black">Company Name</label>
+              <input type="text" name="company_name" id="company_name" placeholder="SealNext" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
             </div>
             <div class="w-full md:w-1/2">
-              <label for="lname" class="block mb-2 text-sm text-black">Website</label>
-              <input type="text" name="last_name" id="lname" placeholder="www.sealnext.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+              <label for="website" class="block mb-2 text-sm text-black">Website</label>
+              <input type="text" name="website" id="website" placeholder="www.sealnext.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
             </div>
           </div>
 
