@@ -6,6 +6,7 @@ import About from "../components/About.svelte"
 import Feedback from "../components/Feedback.svelte"
 import Contact from "../components/Contact.svelte"
 import Footer from "../components/Footer.svelte"
+import FreeSolution from "../components/FreeSolution.svelte";
 ---
 
 <Layout title="SealNext">
@@ -14,6 +15,7 @@ import Footer from "../components/Footer.svelte"
     <HeroSection/>
     <About client:visible/>
     <!-- <Feedback /> -->
+    <FreeSolution client:only/>
     <Contact client:only/>
     <Footer/>
   </main>

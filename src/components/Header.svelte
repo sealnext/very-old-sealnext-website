@@ -1,7 +1,10 @@
 <script>
-  import { fade, slide } from 'svelte/transition';
+import {
+    fade,
+    slide
+} from 'svelte/transition';
 
-  let isMenuVisible = false;
+let isMenuVisible = false;
 </script>
 
 <!-- PHONE -->
@@ -9,7 +12,7 @@
   <div class="flex justify-between items-center px-6">
     <div class="invisible" />
     <div class="pointer-events-none absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center h-16 w-full">
-    <a class="text-2xl font-semibold" href="#">SEALNEXT</a>
+      <a class="text-2xl font-semibold" href="#">SEALNEXT</a>
     </div>
     <button class="p-0 m-0" on:click={() => {isMenuVisible = !isMenuVisible;}}>
       <span class="m-0 p-0 material-symbols-outlined">menu</span>
@@ -35,7 +38,7 @@
   </div>
   <div class="flex flex-col text-base">
     <a href="tel:+40755312170">(+40) 755-312-170</a>
-    <a href="mailto:support@sealnext.com">support@sealnext.com</a>    
+    <a href="mailto:support@sealnext.com">support@sealnext.com</a>
   </div>
 </header>
 
@@ -46,10 +49,16 @@
     <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
     <a class="text-lg px-5 font-normal" href="#servicess">Services</a>
   </div>
-  
+
   <div class="flex flex-col text-base">
     <a href="tel:+40755312170">(+40) 755-312-170</a>
-    <a href="mailto:support@sealnext.com">support@sealnext.com</a>    
+    <a href="mailto:support@sealnext.com">support@sealnext.com</a>
   </div>
   <a href="#contact" class="bg-white font-medium text-black rounded-[7px] py-2 px-4 border-2 border-black">Get started</a>
 </header>
+
+<style>
+    header > a:hover {
+    background-color: rgb(242, 242, 242);
+  }
+</style>
