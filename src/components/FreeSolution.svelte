@@ -40,13 +40,13 @@ import Contact from './FreeSolutionContact.svelte';
   {/if}
   <div class="solution">
     <div class="container" on:click={() => toggleText('hiddenText1', 'arrow1')} on:keydown={(e) => handleKeyDown(e, 'hiddenText1', 'arrow1')} tabindex="0" role="button" aria-pressed="false">
-      <span>🌟 What Does It Mean?</span>
+      <span>What Does It Mean?</span>
       <span id="arrow1" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
     <div id="hiddenText1" style="display:none;">Here at <span>SealNext</span>, our mission is to help small to medium enterprises like your own unlock their full online potential. We get that the world of digital can be a maze sometimes. <br />So, we're extending an offer for a <span>NO-COST personalized digital strategy</span> consultation. This is designed to pinpoint your needs and educate you on effective strategies for online business growth.</div>
 
     <div class="container" on:click={() => toggleText('hiddenText2', 'arrow2')} on:keydown={(e) => handleKeyDown(e, 'hiddenText2', 'arrow2')} tabindex="0" role="button" aria-pressed="false">
-      <span>🤔 What Can You Expect?</span>
+      <span>What Can You Expect?</span>
       <span id="arrow2" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
     <div id="hiddenText2" style="display:none;">
@@ -58,7 +58,7 @@ import Contact from './FreeSolutionContact.svelte';
     </div>
 
     <div class="container" on:click={() => toggleText('hiddenText3', 'arrow3')} on:keydown={(e) => handleKeyDown(e, 'hiddenText3', 'arrow3')} tabindex="0" role="button" aria-pressed="false">
-      <span>🎁 Why Offer This for Free?</span>
+      <span>Why Offer This for Free?</span>
       <span id="arrow3" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
     <div id="hiddenText3" style="display:none;">Our goal is to assist small to medium enterprises in thriving in the digital landscape. Consider this our little way of giving back to the community and showcasing what we can do for you. After we talk, the choice is yours—either apply our suggestions yourself or collaborate with us for implementation.</div>
@@ -149,7 +149,8 @@ p {
     background-color: rgb(40, 40, 40);
 }
 .container > span {
-  font-weight:500;
+  font-weight: 600;
+  font-size: large;
 }
 @media only screen and (min-width: 801px) {
     .title {
