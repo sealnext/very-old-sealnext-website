@@ -19,6 +19,7 @@
       <form action="https://api.web3forms.com/submit" method="POST" class="text-black w-full flex flex-col gap-4 mb-4">
         <input type="hidden" name="access_key" value="fad8eedb-8a2b-4342-a05d-87b4d69b3adf" />
         <input type="hidden" name="subject" value="Contact form" />
+        <input type="hidden" name="redirect" value="https://www.sealnext.com" />
 
         <input name="name" type="text" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Full name" required />
         <input name="email" type="email" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />
