@@ -1,0 +1,22 @@
+---
+import Layout from "./src/layouts/Layout.astro";
+import Header from "./src/components/Header.svelte";
+import HeroSection from "./src/components/HeroSection.svelte";
+import About from "./src/components/About.svelte"
+import Feedback from "./src/components/Feedback.svelte"
+import Contact from "./src/components/Contact.svelte"
+import Footer from "./src/components/Footer.svelte"
+import FreeSolution from "./src/components/FreeSolution.svelte";
+---
+
+<Layout title="SealNext">
+  <main class="flex flex-col">
+    <Header client:load/>
+    <HeroSection/>
+    <About client:visible/>
+    <!-- <Feedback /> -->
+    <FreeSolution client:only/>
+    <Contact client:only/>
+    <Footer/>
+  </main>
+</Layout>
