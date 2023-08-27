@@ -96,19 +96,9 @@ p {
     cursor: pointer;
 }
 
-#meaning {
-    display: none;
-}
-
 .solution {
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-top: 3rem
-        /* 48px */
-    ;
-    margin-bottom: 3rem
-        /* 48px */
-    ;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -134,7 +124,7 @@ p {
 
 .title {
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -158,7 +148,9 @@ p {
 .button:hover {
     background-color: rgb(40, 40, 40);
 }
-
+.container > span {
+  font-weight:500;
+}
 @media only screen and (min-width: 801px) {
     .title {
         font-size: 4vmax;
@@ -171,7 +163,9 @@ p {
     }
 
     .solution {
-        width: 50%;
+        width: 70%;
+        margin-top: 2rem ;
+    margin-bottom: 2rem;
     }
 }
 </style>
