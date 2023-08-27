@@ -40,6 +40,11 @@
 </section>
 
 <style>
+  a {
+    white-space: nowrap;  /* Textul nu se va rupe în mai multe linii */
+    overflow: hidden;  /* Ascunde textul care nu se încadrează */
+    text-overflow: ellipsis;
+  }
   .freeButton:hover {
     background-color: rgb(40, 40, 40);
   }

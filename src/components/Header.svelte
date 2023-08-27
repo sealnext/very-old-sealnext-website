@@ -32,9 +32,8 @@ let isMenuVisible = false;
 <header class="py-4 justify-between shadow items-center px-[5vmin] hidden sm:flex lg:hidden">
   <a class="text-2xl font-semibold" href="">SEALNEXT</a>
   <div class="flex space-x-4">
-    <a class="text-lg font-normal" href="">About</a>
-    <a class="text-lg font-normal" href="">Reviews</a>
-    <a class="text-lg font-normal" href="">Services</a>
+    <a class="text-lg font-normal" href="#reviews">Reviews</a>
+    <a class="text-lg font-normal" href="#servicess">Services</a>
   </div>
   <div class="flex flex-col text-base">
     <a href="tel:+40755312170">+40 755 312 170</a>
