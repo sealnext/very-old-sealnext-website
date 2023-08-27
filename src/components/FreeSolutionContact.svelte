@@ -34,7 +34,7 @@
             <label for="message" class="block mb-2 text-sm text-black"
               >Please provide details in these areas: <br />
               <br />
-              <span class="text-gray-500"> Business Overview, Business Needs, Business Goals, Current Digital Presence, Budget and Timeline, Additional Information, </span></label
+              <span class="text-gray-500"> Business Overview, Business Needs, Business Goals, Current Digital Presence, Budget and Timeline, Additional Information.</span></label
             >
             <textarea rows="5" name="message" id="message" placeholder="Your Message" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
           </div>
