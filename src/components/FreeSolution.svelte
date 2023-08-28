@@ -24,7 +24,7 @@ let showComponent = false;
 import Contact from './FreeSolutionContact.svelte';
 </script>
 
-<section class="mt-20 flex flex-col justify-center items-center" id="free">
+<section class="mt-6 flex flex-col justify-center items-center" id="free">
   <h1 class="title text-3xl md:text-4xl lg:text-5xl">
     Get Your <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 font-bold">FREE</span>
     Custom <br /> Digital Solution Today!
@@ -89,14 +89,16 @@ p {
 .container {
     width: 100%;
     display: flex;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    border-radius: 10px;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
 
 .solution {
+    margin-top: 1rem;
     padding-left: 5vw;
     padding-right: 5vw;
     display: flex;

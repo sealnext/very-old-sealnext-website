@@ -8,13 +8,13 @@ let isMenuVisible = false;
 </script>
 
 <!-- PHONE -->
-<header class="flex flex-col py-4 mx-[5vw] sm:hidden">
-  <div class="flex justify-between items-center px-6">
+<header class="flex flex-col py-4 mx-[1vw] sm:hidden">
+  <div class="flex justify-between items-center px-4 relative">
     <div class="invisible" />
-    <div class="pointer-events-none absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center h-16 w-full">
-      <!-- <a class="text-2xl font-semibold" href="#">SEALNEXT</a> -->
+    <div class="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center h-16 w-full">
       <img alt="text logo" src="text.png" class="text-2xl w-52 font-semibold" href="#" />
     </div>
+
     <button class="p-0 m-0 flex items-center justify-center" on:click={() => {
       isMenuVisible = !isMenuVisible;
       }}>
@@ -23,7 +23,7 @@ let isMenuVisible = false;
     </button>
   </div>
   {#if isMenuVisible}
-    <div class="transition-all pt-6 pb-3" transition:slide={{duration: 200}}>
+    <div class="transition-all pt-6 md:pt-12 lg:pt-20 pb-3" transition:slide={{duration: 200}}>
       <div class="gap-y-4 flex flex-col" transition:fade={{duration: 200}}>
         <a class="text-center text-lg font-normal" href="#reviews">Reviews</a>
         <a class="text-center text-lg font-normal" href="#services">Services</a>
