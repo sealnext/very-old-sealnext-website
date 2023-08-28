@@ -32,7 +32,7 @@ import Contact from './FreeSolutionContact.svelte';
   <div class="text mx-6">
     <h1 class="mt-6 text-center">Ready to unlock your digital potential? Fill out our brief form to get started.</h1>
     {#if !showComponent}
-      <button href="" on:click={handleClick} class="button">Claim your 🎁 solution</button>
+      <button href="" on:click={handleClick} class="button text-[1.2rem] md:text-[1.3rem]">Claim your 🎁 solution</button>
     {/if}
   </div>
   {#if showComponent}
@@ -97,8 +97,8 @@ p {
 }
 
 .solution {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -141,7 +141,6 @@ p {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     border: 2px solid black;
-    font-size: 1.2rem;
 }
 
 .button:hover {

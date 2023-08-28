@@ -1,5 +1,5 @@
 <!-- PHONE -->
-<section class="px-[5vw] md:hidden mt-8">
+<section class="mx-[5vw] md:hidden mt-8">
   <div class="flex flex-col text-center items-center gap-2">
     <h1 class="text-[2rem] font-extrabold text-gray-900 leading-tight">
       Leading
@@ -11,14 +11,14 @@
     </h1>
     <div class="mb-6 text-[1.2rem]">Developing high-quality, innovative software solutions to accelerate your business growth and efficiency.</div>
     <div class="flex flex-col gap-2 px-[2rem] sm:px-0 w-full sm:w-auto">
-      <a href="#free" class="freeButton bg-black font-medium text-white rounded-[10px] py-3 px-4 border-2 border-black text-[1.3rem]">Claim your FREE solution</a>
-      <a href="#contact" class="contactButton bg-white font-medium text-black rounded-[10px] py-3 px-4 border-2 border-black text-[1.3rem]">Contact us</a>
+      <a href="#free" class="freeButton bg-black font-medium text-white rounded-[10px] py-3 px-4 border-2 border-black text-[1.2rem] md:text-[1.3rem]">Claim your FREE solution</a>
+      <a href="#contact" class="contactButton bg-white font-medium text-black rounded-[10px] py-3 px-4 border-2 border-black text-[1.2rem] md:text-[1.3rem]">Contact us</a>
     </div>
   </div>
 </section>
 
 <!-- TABLET/DESKTOP -->
-<section class="px-[5vw] justify-between max-md:hidden mt-16 flex flex-row">
+<section class="mx-[5vw] justify-between max-md:hidden mt-16 flex flex-row">
   <div class="w-1/2 flex flex-col justify-center">
     <div>
       <h1 class="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl">

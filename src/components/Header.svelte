@@ -8,7 +8,7 @@ let isMenuVisible = false;
 </script>
 
 <!-- PHONE -->
-<header class="flex flex-col py-4 px-[5vw] sm:hidden">
+<header class="flex flex-col py-4 mx-[5vw] sm:hidden">
   <div class="flex justify-between items-center px-6">
     <div class="invisible" />
     <div class="pointer-events-none absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center h-16 w-full">
@@ -32,7 +32,7 @@ let isMenuVisible = false;
 </header>
 
 <!-- TABLET -->
-<header class="py-4 justify-between items-center px-[5vw] hidden sm:flex lg:hidden">
+<header class="py-4 justify-between items-center mx-[5vw] hidden sm:flex lg:hidden">
   <a class="text-2xl font-semibold" href="">SEALNEXT</a>
   <div class="flex space-x-4">
     <a class="text-lg font-normal" href="#reviews">Reviews</a>
@@ -45,7 +45,7 @@ let isMenuVisible = false;
 </header>
 
 <!-- DESKTOP -->
-<header class="py-4 gap-8 items-center px-[5vw] hidden lg:flex">
+<header class="py-4 gap-8 items-center mx-[5vw] hidden lg:flex">
   <div class="flex space-x-4 text-base items-center grow">
     <a class="text-left text-2xl font-semibold pr-16" href="">SEALNEXT</a>
     <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
