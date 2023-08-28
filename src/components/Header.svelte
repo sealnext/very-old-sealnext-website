@@ -12,9 +12,10 @@ let isMenuVisible = false;
   <div class="flex justify-between items-center px-6">
     <div class="invisible" />
     <div class="pointer-events-none absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center justify-center h-16 w-full">
-      <a class="text-2xl font-semibold" href="#">SEALNEXT</a>
+      <!-- <a class="text-2xl font-semibold" href="#">SEALNEXT</a> -->
+      <img alt="text logo" src="text.png" class="text-2xl w-52 font-semibold" href="#" />
     </div>
-    <button class="p-0 m-0" on:click={() => {
+    <button class="p-0 m-0 flex items-center justify-center" on:click={() => {
       isMenuVisible = !isMenuVisible;
       }}>
       <span class:hidden={isMenuVisible} class="m-0 p-0 material-symbols-outlined">menu</span>
@@ -33,7 +34,7 @@ let isMenuVisible = false;
 
 <!-- TABLET -->
 <header class="py-4 justify-between items-center mx-[5vw] hidden sm:flex lg:hidden">
-  <a class="text-2xl font-semibold" href="">SEALNEXT</a>
+  <img alt="text logo" src="text.png" class="text-2xl w-44 font-semibold" href="#" />
   <div class="flex space-x-4">
     <a class="text-lg font-normal" href="#reviews">Reviews</a>
     <a class="text-lg font-normal" href="#servicess">Services</a>
@@ -47,7 +48,7 @@ let isMenuVisible = false;
 <!-- DESKTOP -->
 <header class="py-4 gap-8 items-center mx-[5vw] hidden lg:flex">
   <div class="flex space-x-4 text-base items-center grow">
-    <a class="text-left text-2xl font-semibold pr-16" href="">SEALNEXT</a>
+    <img alt="text logo" src="text.png" class="text-2xl w-52 font-semibold" href="#" />
     <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
     <a class="text-lg px-5 font-normal" href="#servicess">Services</a>
   </div>
