@@ -25,7 +25,7 @@ import Contact from './FreeSolutionContact.svelte';
 </script>
 
 <section class="mt-20 flex flex-col justify-center items-center" id="free">
-  <h1 class="title">
+  <h1 class="title text-3xl md:text-4xl lg:text-5xl">
     Get Your <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 font-bold">FREE</span>
     Custom <br /> Digital Solution Today!
   </h1>
@@ -119,12 +119,11 @@ p {
 }
 
 .text h1 {
-    font-size: larger;
+    font-size: 1.2rem;
 }
 
 .title {
     font-weight: 700;
-    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -136,13 +135,13 @@ p {
     margin-bottom: 2rem;
     color: white;
     border-radius: 10px;
-    width: 70%;
+    width: 15rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     border: 2px solid black;
-    font-size: larger;
+    font-size: 1.2rem;
 }
 
 .button:hover {
@@ -154,17 +153,15 @@ p {
 }
 @media only screen and (min-width: 801px) {
     .title {
-        font-size: 4vmax;
         text-align: center;
     }
 
     .button {
-        width: 70%;
-        font-size: 2vmax;
+        font-size: 1rem;
     }
 
     .solution {
-        width: 70%;
+        width: 63%;
         margin-top: 2rem ;
     margin-bottom: 2rem;
     }

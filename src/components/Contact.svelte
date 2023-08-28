@@ -1,8 +1,8 @@
-<div id="contact" class="mt-12 flex-col text-[2.5vmin] justify-between items-center flex mb-6">
-  <h1 class="text-[7vmin] font-bold text-center">Contact</h1>
-  <div class="text-[4vmin] flex items-center mb-8">Your success, our services <span class="text-[5vmin] ml-2">🚀</span></div>
+<div id="contact" class="mt-12 flex-col text-[1rem] justify-between items-center flex mb-6">
+  <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Contact</h1>
+  <div class="text-[1.2rem] flex items-center mb-8">Your success, our services <span class="text-[2rem] ml-2">🚀</span></div>
   <div class="mt-6 flex flex-col-reverse items-center md:flex-row justify-center md:gap-x-32 w-full">
-    <div class="text-xl md:text-l md:pb-12 mt-12 md:mt-0 space-y-4 text-left pb-0 mb-12 md:mb-0">
+    <div class="text-[1.2rem] md:text-l md:pb-12 mt-12 md:mt-0 space-y-4 text-left pb-0 mb-12 md:mb-0">
       <h1 class="font-bold mb-2">Contact SealNext</h1>
       <p class="mb-2 text-gray-500">
         Need assistance or have inquiries? <br />

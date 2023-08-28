@@ -1,7 +1,7 @@
-<div class="flex items-center min-h-screen">
+<div class="flex items-center mt-10">
   <div class="container">
     <div class="w-full md:w-4/5 mx-auto bg-white p-5 rounded-md">
-      <div class="m-7">
+      <div class="">
         <form action="https://api.web3forms.com/submit" method="POST" id="form">
           <input type="hidden" name="access_key" value="fad8eedb-8a2b-4342-a05d-87b4d69b3adf" />
           <input type="hidden" name="redirect" value="https://www.sealnext.com" />
