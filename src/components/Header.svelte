@@ -12,9 +12,8 @@ let isMenuVisible = false;
   <div class="flex justify-between items-center px-4 relative">
     <div class="invisible" />
     <div class="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center h-16 w-full">
-      <img alt="text logo" src="text.png" class="text-2xl w-52 font-semibold" href="#" />
+      <img alt="text logo" src="logo_text.svg" class="text-2xl w-52 font-semibold" href="#" />
     </div>
-
     <button class="p-0 m-0 flex items-center justify-center" on:click={() => {
       isMenuVisible = !isMenuVisible;
       }}>
@@ -34,7 +33,7 @@ let isMenuVisible = false;
 
 <!-- TABLET -->
 <header class="py-4 justify-between items-center mx-[5vw] hidden sm:flex lg:hidden">
-  <img alt="text logo" src="text.png" class="text-2xl w-44 font-semibold" href="#" />
+  <img alt="text logo" src="logo_text.svg" class="text-2xl w-44 font-semibold" href="#" />
   <div class="flex space-x-4">
     <a class="text-lg font-normal" href="#reviews">Reviews</a>
     <a class="text-lg font-normal" href="#servicess">Services</a>
@@ -48,7 +47,7 @@ let isMenuVisible = false;
 <!-- DESKTOP -->
 <header class="py-4 gap-8 items-center mx-[5vw] hidden lg:flex">
   <div class="flex space-x-4 text-base items-center grow">
-    <img alt="text logo" src="text.png" class="text-2xl w-52 font-semibold" href="#" />
+    <img alt="text logo" src="logo_text.svg" class="text-2xl w-52 font-semibold" href="#" />
     <a class="text-lg px-5 font-normal" href="#reviews">Reviews</a>
     <a class="text-lg px-5 font-normal" href="#servicess">Services</a>
   </div>
