@@ -41,9 +41,9 @@
           </div>
 
           <div class="mb-6 flex justify-center">
-            <button type="submit" class="text-xl bg-black md:w-1/2 font-medium text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center">Claim your 🎁 solution</button>
+            <button id="submit" type="submit" class="text-xl bg-black md:w-1/2 font-medium text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center">Claim your 🎁 solution</button>
           </div>
-
+          <div class="h-captcha" data-captcha="true" />
           <p class="text-base text-center text-gray-400" id="result" />
         </form>
       </div>
@@ -52,6 +52,10 @@
 </div>
 
 <style>
+
+#submit:hover {
+    background-color: rgb(40, 40, 40);
+}
   * {
     font-size: large;
   }

@@ -6,7 +6,9 @@
   <div class="w-full flex flex-col md:flex-row my-16 items-center justify-center text-center">
     <!-- sealnext-->
     <div class="w-full md:w-1/4 mb-8 md:mb-0 px-4 flex flex-col items-center justify-center text-center">
-      <h1 class="text-3xl text-center font-bold mb-4">SEALNEXT</h1>
+      <a href="#">
+        <h1 class="text-3xl text-center font-bold mb-4">SEALNEXT</h1>
+      </a>
       <p class="text-center">© 2023 SealNext. All rights reserved.</p>
     </div>
 
@@ -41,12 +43,16 @@
     <div class="w-full md:w-1/4 px-4 flex flex-col items-center justify-center text-center">
       <h2 class="text-xl mb-4 text-center font-medium">Contact us</h2>
       <div class="flex justify-center text-center items-center space-x-2 mb-2">
-        <span class="text-center material-symbols-outlined">phone</span>
-        <span class="text-center"><a href="tel:+40755312170">+40 755 312 170</a></span>
+        <a class="flex justify-center items-center" href="tel:+40755312170">
+          <span class="text-center material-symbols-outlined">phone</span>
+          +40 755 312 170
+        </a>
       </div>
       <div class="flex justify-center items-center space-x-2">
-        <span class="material-symbols-outlined">email</span>
-        <span><a href="mailto:support@sealnext.com">support@sealnext.com</a> </span>
+        <a class="flex justify-center items-center" href="mailto:support@sealnext.com">
+          <span class="material-symbols-outlined mr-1">email</span>
+          support@sealnext.com
+        </a>
       </div>
     </div>
   </div>

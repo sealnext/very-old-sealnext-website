@@ -75,6 +75,7 @@ import Contact from './FreeSolutionContact.svelte';
 #hiddenText3 {
     font-size: large;
     color: gray;
+    margin-bottom: 0.1rem;
 }
 
 p>span,
@@ -89,7 +90,7 @@ p {
 .container {
     width: 100%;
     display: flex;
-    padding: 0.5rem;
+    padding-bottom: 0.5rem;
     margin-top: 0.4rem;
     border-radius: 10px;
     justify-content: space-between;

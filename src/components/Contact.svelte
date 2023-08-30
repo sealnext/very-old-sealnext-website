@@ -25,9 +25,8 @@
         <input name="email" type="email" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-12 p-3 items-center flex" placeholder="Email address" required />
         <textarea name="message" class="border text-xl border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full h-24 p-3 items-center flex" placeholder="Your message" required />
 
-        <div class="h-captcha" data-captcha="true" />
-
         <input id="submit" class="text-xl font-medium bg-black text-white rounded-[10px] px-4 border-2 border-black w-full h-12 flex items-center justify-center" type="submit" value="Submit" />
+        <div class="h-captcha" data-captcha="true" />
       </form>
     </div>
   </div>
