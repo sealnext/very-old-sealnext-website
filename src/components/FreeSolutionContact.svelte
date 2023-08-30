@@ -52,10 +52,25 @@
 </div>
 
 <style>
-
+.button { 
+  text-align: center;
+    font-weight: 500;
+    background-color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 10px;
+    width: 15rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: 2px solid black;
+}
 @media only screen and (min-width: 801px) {
     .button {
         font-size: 1rem;
+        
     }
   }
 #submit:hover {
