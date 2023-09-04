@@ -11,9 +11,9 @@
   
   <!-- pentru favicon.ico -->
   <url>
-    <loc>https://sealnext.com/favicon.ico</loc>
+    <loc>https://sealnext.com/favicon/favicon.ico</loc>
     <image:image>
-      <image:loc>https://sealnext.com/favicon.ico</image:loc>
+      <image:loc>https://sealnext.com/favicon/favicon.ico</image:loc>
     </image:image>
   </url>
 
