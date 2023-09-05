@@ -21,14 +21,14 @@
 <section class="mx-[5vw] justify-between max-md:hidden mt-16 flex flex-row">
   <div class="w-1/2 flex flex-col justify-center">
     <div>
-      <h1 class="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl">
+      <h2 class="mb-4 text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl">
         Leading
         <span class="">Your Business</span>
         <!-- <span class="text-blue-700">Your Business</span> -->
         <br />
         into the
         <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Digital Future</span>
-      </h1>
+      </h2>
       <div class="pb-4 text-2xl">Developing high-quality, innovative <br />software solutions to accelerate your <br />business growth and efficiency.</div>
     </div>
     <div class="py-3 flex flex-col md:flex-row gap-2 px-[2rem] sm:px-0 w-full sm:w-auto">
@@ -36,7 +36,7 @@
       <a href="#contact" class="contactButton bg-white font-medium text-black rounded-[10px] py-3 px-4 border-2 border-black text-[1rem] w-full md:w-auto">Contact us</a>
     </div>
   </div>
-  <img style="width:30rem;height:30rem;" alt="yo" src="big_seal.png" />
+  <img style="width:30rem;height:30rem;" alt="sealnext big logo" src="big_seal.png" />
 </section>
 
 <style>

@@ -1,9 +1,9 @@
 <div id="contact" class="mt-12 flex-col text-[1rem] justify-between items-center flex mb-6">
-  <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Contact</h1>
+  <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center">Contact</h2>
   <div class="text-[1.2rem] flex items-center">Your success, our services</div>
   <div class="mt-5 flex flex-col-reverse items-center md:flex-row justify-center md:gap-x-32 w-full">
     <div class="text-[1.2rem] md:text-l md:pb-12 mt-12 md:mt-0 space-y-4 text-left pb-0 mb-12 md:mb-0">
-      <h1 class="font-bold mb-2">Contact SealNext</h1>
+      <h2 class="font-bold mb-2">Contact SealNext</h2>
       <p class="mb-2 text-gray-500">
         Need assistance or have inquiries? <br />
         We're at your service. Fill out the <br />
@@ -11,7 +11,6 @@
         Let's make a splash together!
       </p>
       <p class="mb-2 flex flex-col text-gray-500">
-        <a href="tel:+40755312170">+40 755 312 170</a>
         <a href="mailto:support@sealnext.com">support@sealnext.com</a>
       </p>
     </div>

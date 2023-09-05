@@ -17,20 +17,20 @@ function handleKeyDown(event, id, arrowId) {
     }
 }
 let showComponent = false;
-  
-  function handleClick() {
+
+function handleClick() {
     showComponent = true;
-  }
+}
 import Contact from './FreeSolutionContact.svelte';
 </script>
 
 <section class="mt-6 flex flex-col justify-center items-center" id="free">
-  <h1 class="title text-3xl md:text-4xl lg:text-5xl">
+  <h2 class="title text-3xl md:text-4xl lg:text-5xl">
     Get Your <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 font-bold">FREE</span>
     Custom <br /> Digital Solution Today!
-  </h1>
+  </h2>
   <div class="text mx-6">
-    <h1 class="mt-6 text-center">Ready to unlock your digital potential? Fill out our brief form to get started.</h1>
+    <h2 class="mt-6 text-center">Ready to unlock your digital potential? Fill out our brief form to get started.</h2>
     {#if !showComponent}
       <button href="" on:click={handleClick} class="button text-[1.2rem] md:text-[1.3rem]">Claim your 🎁 solution</button>
     {/if}
@@ -40,13 +40,13 @@ import Contact from './FreeSolutionContact.svelte';
   {/if}
   <div class="solution">
     <div class="container" on:click={() => toggleText('hiddenText1', 'arrow1')} on:keydown={(e) => handleKeyDown(e, 'hiddenText1', 'arrow1')} tabindex="0" role="button" aria-pressed="false">
-      <span>What Does It Mean?</span>
+      <span>Can SealNext Help You Create an App for Free?</span>
       <span id="arrow1" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
-    <div id="hiddenText1" style="display:none;">Here at <span>SealNext</span>, our mission is to help small to medium enterprises like your own unlock their full online potential. We get that the world of digital can be a maze sometimes. <br />So, we're extending an offer for a <span>NO-COST personalized digital strategy</span> consultation. This is designed to pinpoint your needs and educate you on effective strategies for online business growth.</div>
+    <div id="hiddenText1" style="display:none;">Not really. Here at <span>SealNext</span>, our mission is to help small to medium enterprises like your own unlock their full online potential. We get that the world of digital can be a maze sometimes. <br />So, we're extending an offer a <span>FREE personalized digital strategy consultation</span>. This is designed to pinpoint your needs and educate you on effective strategies for online business growth you can do with us.</div>
 
     <div class="container" on:click={() => toggleText('hiddenText2', 'arrow2')} on:keydown={(e) => handleKeyDown(e, 'hiddenText2', 'arrow2')} tabindex="0" role="button" aria-pressed="false">
-      <span>What Can You Expect?</span>
+      <span>What Can You Expect from SealNext?</span>
       <span id="arrow2" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
     <div id="hiddenText2" style="display:none;">
@@ -58,7 +58,7 @@ import Contact from './FreeSolutionContact.svelte';
     </div>
 
     <div class="container" on:click={() => toggleText('hiddenText3', 'arrow3')} on:keydown={(e) => handleKeyDown(e, 'hiddenText3', 'arrow3')} tabindex="0" role="button" aria-pressed="false">
-      <span>Why Offer This for Free?</span>
+      <span>Why Offer Free Custom Software Consultation?</span>
       <span id="arrow3" class="material-symbols-outlined mr-2">arrow_drop_down</span>
     </div>
     <div id="hiddenText3" style="display:none;">Our goal is to assist small to medium enterprises in thriving in the digital landscape. Consider this our little way of giving back to the community and showcasing what we can do for you. After we talk, the choice is yours—either apply our suggestions yourself or collaborate with us for implementation.</div>
@@ -121,7 +121,7 @@ p {
     align-items: center;
 }
 
-.text h1 {
+.text h2 {
     font-size: 1.2rem;
 }
 
@@ -149,10 +149,12 @@ p {
 .button:hover {
     background-color: rgb(40, 40, 40);
 }
-.container > span {
-  font-weight: 500;
-  font-size: 1.4rem;
+
+.container>span {
+    font-weight: 500;
+    font-size: 1.4rem;
 }
+
 @media only screen and (min-width: 801px) {
     .title {
         text-align: center;
@@ -164,8 +166,8 @@ p {
 
     .solution {
         width: 63%;
-        margin-top: 2rem ;
-    margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
 </style>
